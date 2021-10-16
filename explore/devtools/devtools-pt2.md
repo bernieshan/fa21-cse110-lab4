@@ -1,0 +1,2 @@
+1. The bug was that the numbers were being treated as strings. So when the program added them, it concatenated the strings instead of adding the numbers together numerically.
+2. The issue was fixed by converting num1 and num2 into numbers prior to adding them. The fix is shown [here!](/explore/devtools/fix.jpg)
