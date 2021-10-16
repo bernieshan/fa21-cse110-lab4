@@ -32,7 +32,7 @@
     5. false because true gets converted to 1 and 1 != 2
     6. true because Boolean(2) converts any non-'empty' values into true. Hence true === true is true
 15. The == operator will make type conversions whereas the === operator is strict equality and will not convert types
-16. Located [Here!](/part2-question16.js)
+16. Located [Here!](/expose/javascript/part2-question16.js)
 17. The function would return the array [2,4,6] because the doSomething function just multiplies the number by 2. What the modifyArray function does is it iterates through the array and runs each value through the "callback" function which in this situation is the "doSomething" function
-18. Located [Here!](/part2-question18.js)
+18. Located [Here!](/expose/javascript/part2-question18.js)
 19. The output of this program would be 1 4 3 2. It would first run through the code without timeout delays, then it would go through code with delays in order of least to highest delay value
